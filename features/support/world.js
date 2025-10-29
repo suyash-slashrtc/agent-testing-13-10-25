@@ -30,7 +30,7 @@ class CustomWorld {
   async initBrowser() {
     if (this.browser) return;
     this.browser = await chromium.launch({
-      headless: true,
+      headless: false,
       args: [
         '--no-sandbox',
         '--disable-dev-shm-usage',

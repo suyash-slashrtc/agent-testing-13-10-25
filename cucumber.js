@@ -1,6 +1,6 @@
 module.exports = {
   default: {
-    parallel: 6,
+    parallel: 2,
     require: [
       'features/step_definitions/**/*.js',
       'features/support/**/*.js'
